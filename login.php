@@ -54,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['login'])) {
                 if ($row && $row['password'] === $pass) {
                     $_SESSION['username'] = $user;
                     $_SESSION['role'] = $row['role'];
-                    header("Location: welcome.php");
+                    header("Location: userlandpage.php");
                     exit;
                 } else {
                     $error = "Invalid username or password.";
