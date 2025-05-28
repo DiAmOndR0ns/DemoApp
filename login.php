@@ -14,7 +14,7 @@ $reg_success = "";
 // Set the admin username, password, and admin code
 $admin_username = "adminuser";
 $admin_password = "adminpass";
-$expected_admin_code = "ADMIN1234";
+$expected_admin_code = "ADMIN12345";
 
 // LOGIN logic
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['login'])) {
